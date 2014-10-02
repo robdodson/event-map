@@ -8,10 +8,8 @@
   ],
   "main": "event-map.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^0.4.0",
-    "google-map": "GoogleWebComponents/google-map#~0.3.1",
-    "core-ajax": "Polymer/core-ajax#~0.4.1",
-    "core-selector": "Polymer/core-selector#~0.4.1"
+    "polymer-filters": "addyosmani/polymer-filters#~0.1.0",
+    "polymer-jsonp": "PolymerLabs/polymer-jsonp#~0.3.0"
   },
   "devDependencies": {
     "polymer-test-tools": "Polymer/polymer-test-tools#^0.4.0"
@@ -20,5 +18,20 @@
     "polymer": "^0.4.0",
     "platform": "^0.4.0",
     "core-component-page": "^0.4.0"
-  }
+  },
+  "homepage": "https://github.com/robdodson/event-map",
+  "authors": [
+    "Rob Dodson <robdodson@google.com>"
+  ],
+  "description": "A devsite event map",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "../",
+    "test",
+    "tests"
+  ]
 }
