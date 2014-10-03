@@ -23,7 +23,7 @@ Element providing solution to no problem in particular.
 
     <!-- Grab the event feed from DevSite -->
     <core-ajax auto handleAs="json"
-        url="{{feed}}"
+        url="{{devsite}}/{{feed}}"
         response="{{response}}">
     </core-ajax>
 
@@ -96,7 +96,10 @@ Element providing solution to no problem in particular.
       icon: 'icon-map.svg',
 
       /**
-       * The `feed` should point to an event feed json endpoint
+       * The `feed` should point to an event feed json endpoint.
+       * ex:
+       *
+       * events/event-markers.json?&start=1413331200&end=1418601600&tag=polymerpolytechnic
        *
        * @attribute feed
        * @type string
@@ -106,13 +109,13 @@ Element providing solution to no problem in particular.
 
       /**
        * The `devsite` url should point to the location where the event
-       * calendar is stored
+       * calendar is stored.
        *
        * @attribute devsite
        * @type string
-       * @default https://developers.google.com
+       * @default https://google-developers.appspot.com
        */
-      devsite: 'https://developers.google.com',
+      devsite: 'https://google-developers.appspot.com',
 
       selected: 'map',
 
