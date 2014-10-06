@@ -11,7 +11,8 @@
     "polymer": "Polymer/polymer#^0.4.1",
     "google-map": "GoogleWebComponents/google-map#~0.3.1",
     "core-ajax": "Polymer/core-ajax#~0.4.2",
-    "core-selector": "Polymer/core-selector#~0.4.2"
+    "core-selector": "Polymer/core-selector#~0.4.2",
+    "moment": "~2.8.3"
   },
   "devDependencies": {
     "polymer-test-tools": "Polymer/polymer-test-tools#^0.4.1"
