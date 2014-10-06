@@ -127,7 +127,7 @@ An event map for GDG events around the world
       },
 
       toLongDate: function(time) {
-        var date = moment(time * 1000);
+        var date = moment.utc(time * 1000);
         return {
           day: date.format('dddd'),
           numericDate: date.format('DD'),
